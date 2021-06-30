@@ -3,10 +3,15 @@ Sync VDA data from Citrix Cloud VADS to HUDU Citrix VDA Data is taken from the c
 
 To avoid hard coding or passing sensitive custome rdata this script requires the following environment variables to be set:
 
+
 $Env:CLIENT_ID = <Citrix Cloud API ID>
+  
 $Env:CLIENT_SECRET = <Citrix Cloud API Secret>
+  
 $Env:CUSTOMER_ID = <Citrix Cloud Customer ID>
+  
 $Env:HuduAPI = <Hudu API Key>
+  
   
 .DESCRIPTION
   
